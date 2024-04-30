@@ -3,7 +3,6 @@ def alfabeto(letra):
     print(alfabeto.index(letra.lower())+1)
     global posicao
     posicao=alfabeto.index(letra.lower())+1
-
 def parimpar(posicao):
     if posicao % 2 ==0:
         pares=list(range(0,posicao,2))
@@ -11,6 +10,5 @@ def parimpar(posicao):
     else:
         impares = list(range(1, posicao, 2))
         print(f'Valores IMPARES de 0 a {posicao} são: {impares}')
-
 alfabeto(str(input('Digite uma letra: ')))
 parimpar(posicao)

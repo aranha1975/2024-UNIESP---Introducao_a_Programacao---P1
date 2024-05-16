@@ -1,0 +1,2 @@
+def imposto(valor)
+    valor
